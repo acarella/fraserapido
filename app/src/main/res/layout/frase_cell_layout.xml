@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/frase_tv"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight=".75"
+        android:layout_alignParentLeft="true"/>
+    <ImageButton
+        android:id="@+id/frase_star_button"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight=".25"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@+id/frase_tv"
+        android:src="@mipmap/ic_star_outline_white_36dp"/>
+</LinearLayout>
